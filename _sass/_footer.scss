@@ -1,0 +1,67 @@
+body>footer>nav.social-media-nav {
+    max-width: 100%;
+    height: auto;
+}
+
+.site-footer {
+    background-color: $gold;
+    padding: $spacing-unit*2;
+    text-align: center;
+    @media (max-width: 400px) {
+        padding: $spacing-unit;
+    }
+    .bottom-nav {
+        padding-top: $spacing-unit;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        a {
+            color: $cream;
+            /* Prevent line breaks between, e.g., "Get updates" */
+            white-space: nowrap;
+            padding: $spacing-unit;
+            &:hover {
+                color: $white;
+            }
+            @media (max-width: 600px) {
+                padding: 7px;
+                font-size: 12px;
+            }
+        }
+    }
+    nav a {
+        @media (max-width: 400px) {
+            display: block;
+        }
+    }
+}
+
+.icon {
+    max-width: 100%;
+    height: auto;
+    margin: $spacing-unit/2;
+    >svg {
+        margin: inherit;
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+        @media (max-width: 620px) {
+            margin: inherit;
+            display: inline-block;
+        }
+        path {
+            fill: $cream;
+        }
+    }
+    &:hover {
+        path {
+            fill: $white;
+        }
+    }
+
+
+
+}

@@ -1,0 +1,201 @@
+.post {
+    margin-bottom: $spacing-unit*2;
+}
+
+.post-feature {
+    display: flex;
+    flex-flow: column;
+    /* Lay out item’s contents vertically  */
+    width: 100%;
+    height: $featured-image-height;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: $cream;
+    text-align: center;
+    max-width: 100%; /* Added by RM */
+
+    h1 {
+        font-size: 48px;
+        line-height: 54px;
+        font-weight: bold;
+        padding-top: 20vh;
+        padding-bottom: $spacing-unit/2;
+        padding-left: 100px;
+        padding-right: 100px;
+        @media (max-width: 900px) {
+            font-size: 32px;
+            line-height: 40px;
+        }
+        @media (max-width: 550px) {
+            padding-top: 17vh;
+        }
+        @media (max-width: 450px) {
+            font-size: 28px;
+            line-height: 32px;
+        }
+    }
+}
+
+#intro-header {
+    margin: auto;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#intro-text>em,
+#footer-text>em {
+    margin: auto;
+    line-height: 0.5;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.post-content {
+    margin-top: $spacing-unit*2;
+    @include outer-container;
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    li,
+    table,
+    audio {
+        @include span-columns(6);
+        @include shift(3);
+        @media (max-width: 700px) {
+            @include span-columns(8);
+            @include shift(2);
+        }
+        @media (max-width: 500px) {
+            @include span-columns(10);
+            @include shift(1);
+        }
+    }
+    h1 {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-top: $spacing-unit/2;
+        margin-bottom: $spacing-unit/3;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.4em;
+        font-weight: 650;
+        margin-top: $spacing-unit/2;
+        margin-bottom: $spacing-unit/3;
+        text-align: center;
+    }
+    h3 {
+        font-size: 1.3em;
+        font-weight: 600;
+        margin-top: $spacing-unit/3;
+        margin-bottom: $spacing-unit/4;
+        text-align: center;
+    }
+    h4 {
+        font-size: 1.2em;
+        font-weight: 550;
+        margin-top: $spacing-unit/3;
+        margin-bottom: $spacing-unit/4;
+        text-align: center;
+    }
+    h5 {
+        font-size: 1.2em;
+        font-weight: 550;
+        margin-top: $spacing-unit/3;
+        margin-bottom: $spacing-unit/4;
+        text-align: center;
+    }
+
+    a {
+        color: $blue;
+    }
+    img, figure {
+        // display:inline-flex;
+        // position:relative;
+        // order: -1;            /* Shift image before other content (in visual order) */
+        // align-self: center;   /* Center the image cross-wise (horizontally)         */
+        display: block;
+        margin: 0 auto;
+        margin-top: $spacing-unit/2;
+        // margin-bottom: $spacing-unit/2;
+        margin-bottom: 3px;
+        max-width: 100%;
+    }
+
+   // targets captions
+
+    figcaption, img+em {
+        display: block;
+        font-size: 0.8em;
+        width: 100%;
+        text-align: center;
+        margin-bottom: $spacing-unit/3;
+    }
+
+    blockquote {
+        p {
+            font-size: 1em;
+            text-align: justify;
+            margin: auto;
+            margin-top: $spacing-unit/2;
+            margin-bottom: $spacing-unit;
+            @include span-columns(10);
+            @include shift(1);
+            max-width: 100%
+        }
+    }
+    ul,
+    ol {
+        margin-left: 0;
+        list-style: disc outside none;
+    }
+    li:last-child {
+        margin-bottom: $spacing-unit;
+    }
+    li p {
+        @include fill-parent;
+        @include shift(0.5);
+        display: list-item;
+    }
+    table {
+        margin-bottom: $spacing-unit/2;
+        th,
+        tr,
+        td {
+            padding: 5px;
+            padding-left: 15px;
+            margin-left: 15px;
+            margin: 5px;
+        }
+        th:first-child,
+        td:first-child {
+            padding-left: 0;
+            white-space: nowrap;
+        }
+        td:last-child {
+            padding-right: 0;
+        }
+    }
+    audio {
+        // padding-right: 15%;
+        // margin-right: 15%;
+        // max-width: 5%;
+        // max-height: 10px;
+        // align-self: right;
+        // float: right;
+        // margin-left: 0;
+        // margin-top: 5px;
+        margin-bottom: $spacing-unit;
+        // padding-left: $spacing-unit *5;
+    }
+}

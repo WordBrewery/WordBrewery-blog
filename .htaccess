@@ -1,0 +1,59 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+AuthUserFile /.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.ttps:/)(:80)? [NC]
+RewriteRule ^(.*) https://$1 [R=301,L]
+DirectoryIndex index.html
+order deny,allow
+
+
+# Ensure we are using HTTPS version of the site.
+
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# .htaccess template
+# http://www.htaccesseditor.com/en.shtml#a_extension
+
+# Default page
+# (in order of first specified)
+###############
+DirectoryIndex index.html index.php
+
+# Enable Rewrites
+#################
+RewriteEngine On
+RewriteBase /
+
+# Custom Error pages
+####################
+## ErrorDocument 404 404.html
+## ErrorDocument 500 500.html
+
+# Redirect Directives
+#####################
+# 301 Moved Permanently
+## Redirect permanent index.html index.php
+## Redirect 301 /foo.php http://mydomain.com/foo/
+## RewriteRule ^foo.php$ /foo/ [R=301]
+
+# 302 Moved Temporarily
+## Redirect temp pagemove.html moved.html
+
+# Access Restrictions
+#####################
+# Allow
+## allow from xyz.com
+## allow from 192.168.999.000
+
+# Deny
+## deny from blockthisdomain.com
+## deny from 123.456.789.000
+

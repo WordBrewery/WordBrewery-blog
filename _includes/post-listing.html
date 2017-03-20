@@ -1,0 +1,8 @@
+<div class="post-listing">
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    <div class="feature-img" style="background-image: url({{ site.baseurl }}/img/{{ post.image }})"></div>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} in {{ post.category }}</p>
+    <h2>{{ post.title }}</h2>
+    <p>{% if post.description %}{{ post.description | strip_html | truncate: 120 }}{% elsif post.content %}{{ post.content | strip_html | truncate: 120 }}{% elsif page.description %}{{ post.description | strip_html | truncate: 120 }}{% else %}{% elsif page.content %}{{ post.content | strip_html | truncate: 120 }}{% else %}{{ site.description }}{% endif %}</p>
+  </a>
+</div>

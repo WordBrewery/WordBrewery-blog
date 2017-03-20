@@ -1,0 +1,100 @@
+.carousel {
+  margin-bottom: $spacing-unit*2;
+
+  div {
+    width: 100%;
+    height: $featured-image-height;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: $cream;
+    text-align: center;
+
+    @media (max-width: 700px) {
+      height: $featured-image-height/1.5;
+    }
+
+    @media (max-width: 400px) {
+      height: $featured-image-height;
+    }
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: bold;
+    padding-top: 15vh;
+    padding-bottom: $spacing-unit*2;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media (max-width: 950px) {
+      font-size: 32px;
+      line-height: 40px;
+      padding-bottom: $spacing-unit*3;
+    }
+
+    @media (max-width: 700px) {
+      font-size: 25px;
+      line-height: 30px;
+      padding-top: 10vh;
+      padding-bottom: $spacing-unit;
+    }
+
+    @media (max-width: 400px) {
+      padding-bottom: $spacing-unit*2;
+    }
+  }
+
+  a {
+    color: $cream;
+    border: 1px solid $cream;
+    border-radius: 5px;
+    padding: $spacing-unit/2 $spacing-unit*2;
+
+    @media (max-width: 500px) {
+      padding: $spacing-unit/3 $spacing-unit*1.5;
+    }
+
+    &:hover {
+      background-color: $cream;
+      color: $brown;
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.slick-prev, .slick-prev:focus {
+  left: $arrow-displacement;
+  z-index: 10;
+  background: url(../img/carousel/prev-arrow.png);
+  width: $width;
+  height: $height;
+  opacity: $opacity;
+}
+
+.slick-next, .slick-next:focus {
+  right: $arrow-displacement;
+  background: url(../img/carousel/next-arrow.png);
+  width: $width;
+  height: $height;
+  opacity: $opacity;
+}
+
+.slick-next:hover {
+  background: url(../img/carousel/next-arrow.png);
+  opacity: $hover-opacity;
+}
+
+.slick-prev:hover {
+  background: url(../img/carousel/prev-arrow.png);
+  opacity: $hover-opacity;
+}
+
+.slick-arrow::before {
+  content: none;
+}

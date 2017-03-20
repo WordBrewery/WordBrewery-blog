@@ -1,0 +1,120 @@
+# For Atom Feed
+domain: wordbrewery.com
+author: WordBrewery
+email: admin@wordbrewery.com
+
+# Site settings
+
+avatar: "{{ site.url }}/resources/images/fb-graph-logo.png"
+baseurl: "/blog" # the subpath of your site
+cacheparam: "?101919" # Change this if I want to recache Twitter images
+description: "WordBrewery's home for aspiring polyglots. Study tips, book and app reviews, grammar and vocabulary lessons, interviews, and other language-learning resources."
+encoding: "utf-8"
+feed: <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml" target="_blank">
+include: [".htaccess", "robots.txt"]
+incremental: true
+locale: "en_US"
+logo: "{{ site.url }}/resources/images/logo-big.jpg"
+lsi: true
+markdown: kramdown
+parentsite: "https://wordbrewery.com"
+permalink: /:categories/:title/
+safe: false
+subtitle: "Language Untapped"
+timezone: America/Denver
+title: "Learn languages and vocabulary in context - WordBrewery Blog"
+url: "https://wordbrewery.com" # the base hostname & protocol for your site
+
+# Variables
+
+feedburner: "(http://feeds.feedburner.com/LanguageUntapped){:target='_blank'}{:title='Get new WordBrewery blog posts by email or RSS'}"
+wordbrewery: "[WordBrewery](https://wordbrewery.com){:target='_blank'}{:title='WordBrewery'}"
+subscribe: "[Subscribe to WordBrewery](https://wordbrewery.com/#/subscriptions){:target='_blank'}{:title='Subscribe to WordBrewery'}"
+register: "[Try WordBrewery](https://wordbrewery.com/#/account/register){:target='_blank'}{:title='Subscribe to WordBrewery'}"
+registration: "(https://wordbrewery.com/#/account/register){:target='_blank'}{:title='Sign up for WordBrewery'}"
+donate: "[Donate](https://squareup.com/store/wordbrewery2){:target='_blank'}{:title='Support WordBrewery'}"
+donation: "(https://squareup.com/store/wordbrewery2){:target='_blank'}{:title='Support WordBrewery'}"
+subscriptions: "(https://wordbrewery.com/#/subscriptions){:target='_blank'}{:title='WordBrewery Subscriptions'}"
+emailList: "(http://goo.gl/pTPRvb){:target='_blank'}{:title='Get email updates from WordBrewery'}"
+about: "[About WordBrewery](https://wordbrewery.com/#/about){:target='_blank'}{:title='About WordBrewery'}"
+languages-offered: "nineteen"
+survey: "(https://docs.google.com/forms/d/1VLYcHdI5-FLlr5hMRJ1DzhLKDUzfkPvyI8Bx3bvvk3w/viewform){:target='_blank'}{:title='WordBrewery beta tester survey'}"
+languages:
+- Chinese
+- Danish
+- English
+- French
+- German
+- Greek
+- Hungarian
+- Italian
+- Japanese
+- Korean
+- Norwegian
+- Polish
+- Portuguese
+- Russian
+- Serbian (Cyrillic)
+- Serbian (Latin)
+- Spanish
+- Swedish
+- Ukrainian
+
+name: WordBrewery
+author: WordBrewery
+email: "admin@wordbrewery.com"
+facebook_username: "WordBrewery"
+twitter_username: "WordBrewery"
+tumblr_username: "WordBrewery"
+disqus_username: "WordBrewery"
+fb_admins: "rmccarl"
+fb_admins: "Ashu212"
+fb_admins: "konst123"
+fb_appid: "107695666327886"
+code: "wb9467" # authorization code for tts
+
+# Jekyll settings
+
+permalink: /:categories/:title/
+gems: [jekyll, jekyll-archives, github-pages, bundler, bourbon, neat, jekyll-seo-tag, classifier-reborn, jekyll-feed, nokogiri, jekyll-sitemap, "jekyll/figure"]
+encoding: utf-8
+lsi: true
+timezone: America/Denver
+logo: "{{ site.url }}/assets/images/logo-gold.jpg"
+avatar: "{{ site.url }}/assets/images/fb-profile.jpg"
+locale: "en_US"
+
+# Category settings
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+# Kramdown settings
+
+kramdown:
+  gfm_quirks: [paragraph_end]
+  hard_wrap: true
+
+# YAML defaults
+
+defaults:
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: post
+      title: "An update from WordBrewery"
+      author: "WordBrewery"
+      category: Learning
+      image: SpanishSpain.jpg
+      featured: true
+    sass:
+      sass_dir: _sass

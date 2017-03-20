@@ -1,0 +1,38 @@
+---
+layout: default
+title: Learning {{ page.category }}
+---
+
+{% unless page.content == '' %}
+<p>{{ page.content }}</p>
+{% endunless %}
+
+<div class="post_index">
+
+  {% for post in site.posts %}
+  {% if post.category==page.category%}
+  {% include post-listing.html %}
+  {% endif %}
+  {% endfor %}
+
+</div>
+
+Site:
+  {{ site | jsonify }}
+
+  Page:
+
+  {{ page | jsonify }}
+
+  Category:
+
+  {{ category | jsonify }}
+
+  Post:
+
+  {{ post | jsonify }}
+
+  Default
+
+  {{ default | jsonify }}
+

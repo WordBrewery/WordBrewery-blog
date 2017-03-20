@@ -1,0 +1,8 @@
+User-agent: Twitterbot
+
+User-agent: *
+
+Sitemap: https://wordbrewery.com/sitemap.xml
+Disallow: /js/*
+Disallow: /slick/*
+Disallow: /css/*
