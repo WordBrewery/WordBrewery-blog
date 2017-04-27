@@ -70,7 +70,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
-    
+
 }
 
 li {
@@ -151,4 +151,40 @@ blockquote {
         display: table;
         clear: both;
     }
+}
+
+.button {
+  background: #437C90;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn {
+  background: #437C90;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  text-align: center;
 }

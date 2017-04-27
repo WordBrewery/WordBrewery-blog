@@ -58,3 +58,5 @@ Learning a foreign language is difficult, and reading a complete text of any len
 
 
 Integrating these steps into your reading practice may seem tedious. But the truth is that reading in a second language can be both thrilling and maddening, and it is important to approach the task prepared to minimize and tolerate the difficulties you will inevitably encounter. With practice, these techniques will become instinctive, and the joy of increasing comprehension will encourage you to move toward reading fluency.
+
+{% include post_footer.html %}

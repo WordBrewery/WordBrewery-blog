@@ -1,46 +1,33 @@
 // TYPOGRAPHY
-
-$base-font-family: "Work Sans", Helvetica, Arial, "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-
-//$base-font-size: 16px;
+$base-font-family: "Work Sans", "Open Sans", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+$base-font-size: 16px;
 $base-font-weight: 400;
 $base-line-height: 1.5;
-//$small-font-size:  $base-font-size * 0.875;
-
+$small-font-size: $base-font-size * 0.875;
 // COLORS
-
 $white: #fff;
 $gold: #EBB331;
 $cream: #F5F5F0;
 $blue: #437C90;
 $brown: #3B3B3B;
 $gray: lighten($brown, 40%);
-
 $text-color: $brown;
 $background-color: $cream;
 $brand-color: $gold;
-
 $facebook-color: #3b5998;
 $twitter-color: #55acee;
 $tumblr-color: #35465c;
 $email-color: #dd4b39;
 $rss-color: #f26522;
-
 // LAYOUT
-
 $spacing-unit: 30px;
 $content-width: 80%;
 $featured-image-height: 60vh;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
+$on-palm: 600px;
+$on-laptop: 800px;
 // CAROUSEL
-
 $arrow-displacement: 20px;
 $width: 30px;
 $height: 48px;
 $opacity: .4;
 $hover-opacity: .7;
-

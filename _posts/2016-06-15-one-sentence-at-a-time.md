@@ -21,3 +21,5 @@ You can add game-like elements and nice graphics and animations to traditional f
 This realization became one of the guiding principles of {{site.wordbrewery}}: we never ask you to memorize isolated words or definitions. Instead, we show you words as they actually occur: in the context of real sentences written by native speakers, for native speakers.
 
 *[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery Blog posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. Your support helps us grow and build more useful features and content for language learners around the world.*
+
+{% include post_footer.html %}

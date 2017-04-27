@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
+    {% include header.html %} {{ content }} {% include footer.html %}
 
     <!-- JAVASCRIPT -->
     <script type="text/javascript" src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/slick/slick.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/js/functions.js" | prepend: site.baseurl }}"></script>
 
-  </body>
+    {% include analytics.html %}
+
+</body>
 
 </html>

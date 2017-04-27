@@ -35,5 +35,6 @@ Anki-compatible lists at {{ site.wordbrewery }}. If you like the deck, please ra
 us get the traction we need to build the features you want: every time you share one of our links or talk about
 WordBrewery on a social media site, it helps us enormously. ¡Buena Suerte!
 
-*[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new posts from the WordBrewery Blog by email or
-RSS.*
+*[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new posts from the WordBrewery Blog by email or RSS.*
+
+{% include post_footer.html %}

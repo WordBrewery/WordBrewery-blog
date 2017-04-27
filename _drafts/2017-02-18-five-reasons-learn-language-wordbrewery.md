@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Want to learn another language? Take it one sentence at a time."
+title: "Five reasons to learn a language with WordBrewery"
 description: "WordBrewery teaches you languages one sentence at a time using real sentences from the news."
 author: "WordBrewery"
 category: learning
@@ -9,7 +9,7 @@ image: pink-city.jpg
 
 ## Welcome to {{ site.wordbrewery }}!
 
-")){{ site.wordbrewery }} is a new language-learning app and website that helps you achieve fluency one sentence at a time. WordBrewery pulls real, recent, and relevant sentences from news sites around the world, then uses these sentences to teach you the high-frequency vocabulary words you need to master in your target language. Each sentence you study on {{site.wordbrewery}} will bring you closer to mastery of the vocabulary and grammar you need to reach your goals. It gives you real experience reading and listening to your target language from day one. For a limited time, we are offering early adopters a basic subscription for only $4.99 per month or $49.99 per year. 
+{{ site.wordbrewery }} is a new language-learning app and website that helps you achieve fluency one sentence at a time. WordBrewery pulls real, recent, and relevant sentences from news sites around the world, then uses these sentences to teach you the high-frequency vocabulary words you need to master in your target language. Each sentence you study on {{site.wordbrewery}} will bring you closer to mastery of the vocabulary and grammar you need to reach your goals. It gives you real experience reading and listening to your target language from day one. For a limited time, we are offering early adopters a basic subscription for only $4.99 per month or $49.99 per year. 
 
 Your support is essential to our success. Subscriptions help us build the mobile app, game mode, and language courses we are working on. They also help us continue to add features like native-speaker audio, human-edited translations, and advanced natural language processing tools that help you learn as efficiently as possible.
 
@@ -47,4 +47,4 @@ We built {{site.wordbrewery}} because we wanted a way to learn, practice, and re
 
 But what do you want? We want {{site.wordbrewery}} to be useful for you, so please let us know what you like, what you think could be better, and what would make you come back for more. Consider [taking a short beta tester survey](https://docs.google.com/forms/d/1VLYcHdI5-FLlr5hMRJ1DzhLKDUzfkPvyI8Bx3bvvk3w/viewform) to let us know. If you want to help us build a mobile app or hire more native-speaker voice actors to record sentences, please consider [making a small donation](https://squareup.com/store/wordbrewery2); everything helps!
 
-*[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery Blog posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. And if you haven't tried reading the news in another  language on {{site.wordbrewery}} yet, please give it a try. We offer a basic monthly subscription for about the price of a cup of coffee. Your support helps us grow and build more useful features and content for language learners around the world.*
+*[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new Language Untapped posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. And if you haven't tried reading the news in another  language on {{site.wordbrewery}} yet, please give it a try. We offer a basic monthly subscription for about the price of a cup of coffee. Your support helps us grow and build more useful features and content for language learners around the world.*

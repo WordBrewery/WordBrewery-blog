@@ -1,0 +1,86 @@
+<!-- include schema.html -->
+
+<script type="application/ld+json">
+{% if page.is_post %}
+  {% assign type = "BlogPosting" %}
+{% else %}
+  {% assign type = "Blog" %}
+{% endif %}
+
+  {
+    "@context": "http://schema.org",
+    "@type": "{{ type }}",
+    "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+    "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+    "mainEntityOfPage": {
+      "@type": "{{ type }}",
+      "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+    },
+    "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+    <!-- "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}", -->
+  {% if page.date %}
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% endif %}
+  {% if page.update %}
+    "dateModified": "{{ page.update | date_to_xmlschema }}",
+  {% endif %}
+  {% if page.image %}
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.image.path }}",
+      "width": {{ page.image.width }},
+      "height": {{ page.image.height }}
+  },
+  {% endif %}
+          "author": {
+            "@type": "Organization",
+            "name": "WordBrewery",
+            "sameAs": [
+                "https://wordbrewery.com",
+                "https://plus.google.com/+WordBreweryLanguages",
+                "https://twitter.com/wordbrewery",
+                "https://wordbrewery.tumblr.com",
+                "https://youtube.com/wordbrewerylanguages",
+                "https://www.facebook.com/WordBrewery/",
+                "https://github.com/WordBrewery/",
+                "https://www.pinterest.com/wordbrewery/",
+                "https://www.linkedin.com/company/wordbrewery",
+                "http://www.stumbleupon.com/stumbler/wordbrewery",
+                "https://instagram.com/wordbrewery",
+                "http://wordbrewery.newsblur.com/",
+                "http://digg.com/u/wordbrewery",
+                "https://pinboard.in/u:WordBrewery",
+                "https://squareup.com/store/wordbrewery2",
+                "http://stackoverflow.com/users/5083726/wordbrewery"],
+        "logo": {
+        "@type": "ImageObject",
+        "url": "https://goo.gl/uK16Ys",
+        "width": 412,
+        "height": 152
+      }
+  },
+
+          "publisher": {
+            "@type": "Person",
+            "name": "Ryan McCarl",
+            "sameAs": [
+                "https://ryanmccarl.com",
+                "https://wideawakeminds.com",
+                "https://twitter.com/RyanMcCarl",
+                "https://www.quora.com/profile/Ryan-McCarl",
+                "https://plus.google.com/+ryanmccarl",
+                "https://www.facebook.com/rmccarl",
+                "https://www.linkedin.com/in/ryanmccarl",
+                "https://github.com/RyanMcCarl",
+                "http://ryanmccarl.blogspot.com"
+  ],
+  "logo": {
+        "@type": "ImageObject",
+        "url": "https://goo.gl/uK16Ys"
+        "width": 412,
+        "height": 152
+      }
+
+    }
+}
+    </script>

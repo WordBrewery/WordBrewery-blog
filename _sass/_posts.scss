@@ -1,5 +1,5 @@
 .post {
-    margin-bottom: $spacing-unit*2;
+    margin-bottom: $spacing-unit*2
 }
 
 .post-feature {
@@ -17,8 +17,8 @@
     background-attachment: fixed;
     color: $cream;
     text-align: center;
-    max-width: 100%; /* Added by RM */
-
+    max-width: 100%;
+    /* Added by RM */
     h1 {
         font-size: 48px;
         line-height: 54px;
@@ -39,7 +39,17 @@
             line-height: 32px;
         }
     }
+
+    p.meta, p > a, p > a:link, p > a:visited {
+        text-color: #fff;
+
+    }
 }
+
+    p.meta > a, p.meta > a:link, p.meta > a:visited {
+        text-color: #fff;
+
+    }
 
 #intro-header {
     margin: auto;
@@ -115,11 +125,11 @@
         margin-bottom: $spacing-unit/4;
         text-align: center;
     }
-
     a {
         color: $blue;
     }
-    img, figure {
+    img,
+    figure {
         // display:inline-flex;
         // position:relative;
         // order: -1;            /* Shift image before other content (in visual order) */
@@ -131,17 +141,15 @@
         margin-bottom: 3px;
         max-width: 100%;
     }
-
-   // targets captions
-
-    figcaption, img+em {
+    // targets captions
+    figcaption,
+    img+em {
         display: block;
         font-size: 0.8em;
         width: 100%;
         text-align: center;
         margin-bottom: $spacing-unit/3;
     }
-
     blockquote {
         p {
             font-size: 1em;
@@ -197,5 +205,11 @@
         // margin-top: 5px;
         margin-bottom: $spacing-unit;
         // padding-left: $spacing-unit *5;
+    }
+    body>article>div>p>a {
+        text-color: $white;
+        a:hover {
+            text-color: $white;
+        }
     }
 }

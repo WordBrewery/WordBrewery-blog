@@ -2,7 +2,7 @@
 layout: post
 title: "Learning languages makes you smarter"
 description: "Learning languages improves your memory and executive functions by strengthening the neural networks in your brain"
-categories: [learning, infographics]
+category: learning
 featured: true
 published: true
 image: learning_languages_makes_you_smarter.jpg

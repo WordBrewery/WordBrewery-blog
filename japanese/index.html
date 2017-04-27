@@ -3,11 +3,21 @@ layout: default
 ---
 
 <div class="carousel">
-  {% for post in site.posts %}
-    {% if post.category=="Japanese" %}
-      {% include carousel-slide.html %}
-    {% endif %}
-  {% endfor %}
+    {% for post in site.category.Japanese %}
+    <!-- {% if post.category=="Japanese" %} -->
+    {% include carousel-slide.html %}
+    <!-- {% endif %} -->
+    {% endfor %}
 </div>
 
-{% include post-index.html %}
+<div class="post_index">
+
+    <ul class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+        {% for post in site.category.Japanese %}
+        <!-- {% if post.category=="Japanese" %} -->
+        {% include post-listing.html %}
+        <!-- {% endif %} -->
+        {% endfor %}
+    </ul>
+
+</div>

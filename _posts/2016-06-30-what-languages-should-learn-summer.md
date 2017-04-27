@@ -41,3 +41,5 @@ Many English words have their roots in Greek, making vocabulary easier. Once you
 {{ site.wordbrewery }}'s {{ site.languages-offered }} languages include Spanish, Danish, and Greek. No matter what you choose to learn, we hope you use {{ site.wordbrewery }} to help you meet your goals. {{site.wordbrewery}} is designed to teach languages with real sentences selected based on the frequency of the words they contain.
 
 *[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery Blog posts by email or RSS. Your support helps us grow and build more useful features and content for language learners around the world.*
+
+{% include post_footer.html %}

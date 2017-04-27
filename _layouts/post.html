@@ -1,16 +1,27 @@
 ---
 layout: default
 ---
-<article class="post">
-  <div class="post-feature" style="background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url({{ site.baseurl }}/img/{{ page.image }})">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }} &bull; {{ page.category }}</p>
-  </div>
-  <div class="post-content">
-    {{ content }}
-  </div>
+
+<article class="post" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
+    <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+    <meta itemprop="description" content="{{ post.description | strip_html | truncatewords: 40 }}" />
+    <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
+    <meta itemprop="author" name="WordBrewery" @type="Organization">
+    <div class="post-feature" style="background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url({{ site.baseurl }}/img/{{ page.image }})">
+        <div class="feature-img">
+            <img itemprop="image" "src="{{ site.baseurl }}/img/{{ page.image }}"></div>
+      <h1 itemprop="headline">{{ page.title }}</h1>
+      <p class="meta"><time class="published " itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%b %-d, %Y" }}</time> &bull; {{ page.category }} | By <a itemprop="author" name="WordBrewery" href="https://wordbrewery.com" url="https://wordbrewery.com" style="text-color: #fff">WordBrewery</a></p>
+
+      </div>
+
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
+
+    </div>
+
+          {% include post_schema.html %}
+    <!-- Social share buttons -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57db2fd4bd1f5c4f"></script>
 
 </article>
-
-<!-- Social share buttons -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57db2fd4bd1f5c4f"></script>

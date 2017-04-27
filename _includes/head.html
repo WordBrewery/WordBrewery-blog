@@ -1,3 +1,5 @@
+<!-- include head.html -->
+
 <head>
     <!-- Google Tag Manager -->
     <!-- Must come immediately after <head> tag -->
@@ -10,11 +12,11 @@
                 event: 'gtm.js'
             });
             var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
             j.async = true;
             j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TLLQWDB');
     </script>
@@ -28,9 +30,10 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.title %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.description %}{{ page.content | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="stylesheet" type="text/css" href="{{ "/slick/slick.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/slick/slick-theme.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
+    <link href="{{ "/slick/slick.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
+    <link href="{{ "/slick/slick-theme.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
+
     <link rel="canonical" href="{{ page.url | replace:'index.html' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
@@ -39,8 +42,12 @@
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="{% if post.title %}{{ post.title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="en_US">
     <meta property="og:author" content="WordBrewery">
-    <meta property="og:image" content="{% if post.image %}{{ site.url}}{{ site.baseurl }}/img/post-images/{{ post.image }}{% elsif page.image %}{{ site.url }}{{ site.baseurl }}/img/post-features/{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}/img/post-features/fb-cover.jpg{% endif %}">
+    <meta property="og:image" content="{% if post.image %}{{ site.url}}{{ site.baseurl }}/img/{{ post.image }}{% elsif page.image %}{{ site.url }}{{ site.baseurl }}/img/{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}/img/fb-cover.jpg{% endif %}">
+
+    <meta property="og:image:secure_url" content="{% if post.image %}{{ site.url}}{{ site.baseurl }}/img/{{ post.image }}{% elsif page.image %}{{ site.url }}{{ site.baseurl }}/img/{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}/img/fb-cover.jpg{% endif %}">
     <meta property="og:type" content="{% if post.image %}article{% elsif page.image %}article{% else %}website{% endif %}">
     <meta property="og:url" content="{{ page.url | replace:'index.html' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:description" content="{% if page.title %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.description %}{{ page.content | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -55,23 +62,38 @@
     <meta property="twitter:creator" content="@WordBrewery">
     <meta property="twitter:creator:id" content="4747778602">
     <meta property="twitter:description" content="{% if page.title %}{{ page.description | strip_html | truncate: 160 }}{% elsif page.description %}{{ page.content | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-<!--    <meta property="twitter:text:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% elsif post.content %}{{ post.content | strip_html | truncate: 160 }}{% elsif post.description %}{{ post.description | strip_html | truncate: 160 }}{% elsif page.content %}{{ post.content | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"> -->
-
     <meta property="twitter:title" content="{% if post.title %}{{ post.title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 
-    <meta property="twitter:image" content="{% if post.image %}{{ site.url  }}{{ site.baseurl }}/img/post-images/{{ post.image }}{{ site.cacheparam }}{% elsif page.image %}{{ site.url }}{{ site.baseurl }}/img/post-features/{{ page.image }}{{ site.cacheparam }}{% else %}{{ site.url }}{{ site.baseurl }}/img/post-features/fb-cover.jpg{% endif %}">
+    <meta property="twitter:image" content="{% if post.image %}{{ site.url  }}{{ site.baseurl }}/img/{{ post.image }}{{ site.cacheparam }}{% elsif page.image %}{{ site.url }}{{ site.baseurl }}/img/{{ page.image }}{{ site.cacheparam }}{% else %}{{ site.url }}{{ site.baseurl }}/img/fb-cover.jpg{% endif %}">
+
+    <!-- Schema.org metadata -->
+
+    {% include schema.html %} {% feed_meta %}
 
     <!-- Fallback - description for index.html -->
 
-    {% if description == "" %}<meta name="description" content="{{ site.description }}">{% endif %}
-    {% if og.description == "" %}<meta name="og:description" content="{{ site.description }}">{% endif %}
-    {% if twitter.description == "" %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
+    {% if description == "" %}
+    <meta name="description" content="{{ site.description }}">{% endif %} {% if og.description == "" %}
+    <meta name="og:description" content="{{ site.description }}">{% endif %} {% if twitter.description == "" %}
+    <meta name="twitter:description" content="{{ site.description }}">{% endif %}
 
     <!-- What does this do? -->
-    {% if site.categories.jobs == null %}{% endif %} {% if page.date %}
-    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}"> {% for post in site.related_posts limit:3 %}
-    <meta property="og:see_also" content="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> {% endfor %} {% endif %} {% include ga.html %} {% include google-fonts.html %}
+    {% if site.categories.jobs == null %}{% endif %}
+
+    {% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+
+    {% for post in site.related_posts limit:3 %}
+
+    <meta property="og:see_also" content="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    {% endfor %}
+    {% endif %}
+
+    <!-- Google Analytics and Google Fonts -->
+
+    {% include ga.html %}
+    {% include google-fonts.html %}
 
     <!-- FAVICON -->
 

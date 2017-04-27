@@ -17,7 +17,7 @@ featured: false
 
 ## 8. Pero no lo sé.
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Pero no lo sé."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Pero no lo sé."></source></audio>
 
 **pero** | but
 **lo** | it
@@ -28,19 +28,19 @@ The sentence contains several useful patterns that you will want to remember:
 
 **Pero** . . . = But . . .
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=pero"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=pero"></source></audio>
 
 **No sé** = I don't know
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=No sé."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=No sé."></source></audio>
 
 **Lo sé** = I know it
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Lo sé."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Lo sé."></source></audio>
 
 **No lo sé** = I don't know (it)
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=No lo sé."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=No lo sé."></source></audio>
 
 ## Grammar note: "Lo"
 
@@ -50,7 +50,7 @@ More specifically, "lo" is a *direct object* pronoun. In this sentence, it answe
 
 ## 9. No, no lo creo.
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=No, no lo creo."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=No, no lo creo."></source></audio>
 
 **creo** | I believe (from **creer**, to believe)
 
@@ -68,7 +68,7 @@ We will discuss **verb conjugation** in future lessons. For now, notice a few th
 
 ## 10. ¡Yo no soy así!
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=¡Yo no soy así!"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=¡Yo no soy así!"></source></audio>
 
 **yo** | I
 
@@ -78,7 +78,7 @@ We met this word in the discussion above. Here, the speaker has chosen to use th
 
 ## 11. ¿Por qué lo hace?
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=¿Por qué lo hace?"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=¿Por qué lo hace?"></source></audio>
 
 Pay attention to the usage of "lo" again here. In this sentence, "lo" answers the question: what did he/she/it do?
 
@@ -93,15 +93,15 @@ Pay attention to the usage of "lo" again here. In this sentence, "lo" answers th
 
 ## 12. ¿Y no solo eso?
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=¿Y no solo eso?"></source></audio>
+<audio controls align="center" preload="none"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=¿Y no solo eso?"></source></audio>
 
 ## 13. Eso es un error.
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Eso es un error."></source></audio>
+<audio controls align="center" preload="none"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Eso es un error."></source></audio>
 
 ## 14. Yo creo que no.
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Yo creo que no."></source></audio>
+<audio controls align="center" preload="none"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Yo creo que no."></source></audio>
 
 ## Learn more about the grammar and vocabulary that appears in this post's sentences
 
@@ -112,3 +112,5 @@ Pay attention to the usage of "lo" again here. In this sentence, "lo" answers th
 *This post is part of {{ site.wordbrewery }}'s Spanish Fundamentals series, which is described [here]({{ site.baseurl }}{% post_url 2016-06-17-spanish-fundamentals-introduction %}). All the example sentences on this blog are real, recent sentences from the news selected from {{ site.wordbrewery }}'s database, and each sentence is paired with audio recorded by native speakers. [Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery Blog posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. Your support helps us grow and build more useful features and content for language learners around the world.*
 
 {% include spanish_fundamentals_index.html %}
+
+{% include post_footer.html %}

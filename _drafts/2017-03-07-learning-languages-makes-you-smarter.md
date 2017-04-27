@@ -21,4 +21,4 @@ This may imply that bilingualism helps to refine certain brain activities which 
 
 These are just the health benefits of learning a language. A second language can also give significant [economic](http://news.ufl.edu/archive/2000/01/in-florida-it-pays-to-be-bilingual-university-of-florida-study-finds.html) and [social](http://www.sciencedirect.com/science/article/pii/S1877042814054044) benefits.
 
-[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery blog posts by email or RSS, and [click](http://wordbrewery.us12.list-manage.com/subscribe?u=de5def825a669f96078a614d4&id=ccf98da72c) here to join our email community. Your support helps us grow and build more useful features and content for language learners around the world.
+[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery blog posts by email or RSS, and [click](http://wordbrewery.us12.list-manage.com/subscribe?u=de5def825a669f96078a614d4&amp;id=ccf98da72c) here to join our email community. Your support helps us grow and build more useful features and content for language learners around the world.

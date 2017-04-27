@@ -9,11 +9,11 @@ featured: true
 
 Welcome to Lesson One of {{ site.wordbrewery }}'s [Spanish Fundamentals]({{ site.baseurl }}{% post_url 2016-06-17-spanish-fundamentals-introduction %}) series. We have scoured thousands of recent Spanish-language news articles and selected 300 sentences from them to teach you the essentials of Spanish grammar and vocabulary. We've also had the sentences recorded by native Spanish speakers.
 
-If you study and memorize the sentences in this series, you will be well on your way to mastering the 500 most common words&mdash;which make up over 65% of the Spanish words you're likely to encounter in any given day&mdash;while also familiarizing yourself with the most important rules of Spanish grammar. With some practice, you will begin to experience what fluency feels like, because you'll be reading and understanding real sentences from the news&mdash;no definitions to memorize, no boring textbook, and no made-up sentences or canned phrases. Welcome to the first-ever Spanish course that lets you read and listen to real Spanish on day one.
+If you study and memorize the sentences in this series, you will be well on your way to mastering the 500 most common words&amp;mdash;which make up over 65% of the Spanish words you're likely to encounter in any given day&amp;mdash;while also familiarizing yourself with the most important rules of Spanish grammar. With some practice, you will begin to experience what fluency feels like, because you'll be reading and understanding real sentences from the news&amp;mdash;no definitions to memorize, no boring textbook, and no made-up sentences or canned phrases. Welcome to the first-ever Spanish course that lets you read and listen to real Spanish on day one.
 
 ## 1. No mucho, la verdad
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=No mucho, la verdad."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=No mucho, la verdad."></source></audio>
 
 Since the word "no" is a *cognate* with the same meaning and pronunciation as the English "no," the words below are all you need to read your first real Spanish sentence from a real Spanish-language news article:
 
@@ -50,7 +50,7 @@ So does that mean you can learn Spanish instantly, with no real investment of ti
 
 ## 2. La verdad es que no.
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=La%20verdad%20es%20que%20no."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=La%20verdad%20es%20que%20no."></source></audio>
 
 **que** | that
 
@@ -60,7 +60,7 @@ Try to solve the last sentence of the lesson on your own. Then, reread all three
 
 ## 3. Eso también es verdad.
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Eso también es verdad."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Eso también es verdad."></source></audio>
 
 **eso**     |       this
 **también** |       also
@@ -76,3 +76,5 @@ Try to solve the last sentence of the lesson on your own. Then, reread all three
 {% include spanish_fundamentals_index.html %}
 
 *This post is part of WordBrewery's Spanish Fundamentals series, which is described [here]({{ site.baseurl }}{% post_url 2016-06-17-spanish-fundamentals-introduction %}). All the example sentences on this blog are real, recent sentences from the news selected from {{ site.wordbrewery }}'s database, and each sentence is paired with audio recorded by native speakers. [Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery Blog posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. Your support helps us grow and build more useful features and content for language learners around the world.*
+
+{% include post_footer.html %}

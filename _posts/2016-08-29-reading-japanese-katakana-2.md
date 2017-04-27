@@ -18,258 +18,258 @@ You learned the five vowel symbols in Lesson 1; now you will learn the five most
 
 **ン** | n ("n" as in "none"--but a standalone syllable).
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ン"></source></audio>
 
 **エン** | Yen
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=エン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=エン"></source></audio>
 
 **オン** | on
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=オン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=オン"></source></audio>
 
 **イオン** | eon
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=イオン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=イオン"></source></audio>
 
 **ウィン** | win
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウィン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウィン"></source></audio>
 
 **ウン** | very common sound indicating agreement (can be extended to ウンウン)
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウン"></source></audio>
 
 **オンエア** | on-air
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=オンエア"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=オンエア"></source></audio>
 
 **アイアン** | iron (golf club)
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アイアン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アイアン"></source></audio>
 
 **ウィーン** | win
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウィーン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウィーン"></source></audio>
 
 **ル** | ru ("ru/lu";  to pronounce the Japanese "r", try this: say "Eddie" fast (but without putting any stress on "Ed," because Japanese doesn't stress syllables like English does). That is the same sound as the Japanese word *eri*, meaning "ring.")
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ル"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ル"></source></audio>
 
 
 ルール | rule
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ルール"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ルール"></source></audio>
 
 
 オール | all-nighter, oar
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=オール"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=オール"></source></audio>
 
 
 オイル | oil
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=オイル"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=オイル"></source></audio>
 
 
 エール | yell, ale
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=エール"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=エール"></source></audio>
 
 
 ウォール | wall
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウォール"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウォール"></source></audio>
 
 
 アイル | aisle
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アイル"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アイル"></source></audio>
 
 
 **ス** |  su ("soo" as in "sushi")
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ス"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ス"></source></audio>
 
 
 スイス | Swiss
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=スイス"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=スイス"></source></audio>
 
 
 ウイルス | virus
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウイルス"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウイルス"></source></audio>
 
 
 エース | ace
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=エース"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=エース"></source></audio>
 
 
 イエス | Jesus
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=イエス"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=イエス"></source></audio>
 
 
 スー | Sioux
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=スー"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=スー"></source></audio>
 
 
 アイス | ice, iced
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アイス"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アイス"></source></audio>
 
 
 スルー | "through": going through, looking past, ignoring
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=スルー"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=スルー"></source></audio>
 
 
 アース | Earth
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アース"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アース"></source></audio>
 
 
 **ズ** | zu ("zu" as in "Zulu")
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ズ"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ズ"></source></audio>
 
 
 ウォーズ | wars (as in "Star Wars")
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウォーズ"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウォーズ"></source></audio>
 
 
 エイズ | AIDS
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=エイズ"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=エイズ"></source></audio>
 
 
 ウェールズ | Wales
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウェールズ"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウェールズ"></source></audio>
 
 
 **ト** | to ("toe" as in "tofu")
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ト"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ト"></source></audio>
 
 
 トン | ton
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=トン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=トン"></source></audio>
 
 
 ルート | route
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ルート"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ルート"></source></audio>
 
 
 スト | strike (workers' strike)
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=スト"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=スト"></source></audio>
 
 
 アウト | out (baseball)
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アウト"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アウト"></source></audio>
 
 
 アート | art
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アート"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アート"></source></audio>
 
 
 ストア | store
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ストア"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ストア"></source></audio>
 
 
 ウエスト | waste, waist, west
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウエスト"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウエスト"></source></audio>
 
 
 オート | auto
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=オート"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=オート"></source></audio>
 
 
 イースト | east
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=イースト"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=イースト"></source></audio>
 
 
 トーン | tone
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=トーン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=トーン"></source></audio>
 
 
 アルト | alto
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アルト"></source></audio>
+<audio controls align="center" preload="none"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アルト"></source></audio>
 
 
 ド | do ("doe")
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ド"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ド"></source></audio>
 
 
 ドル |  dollar
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ドル"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ドル"></source></audio>
 
 
 インド | Indonesia
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=インド"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=インド"></source></audio>
 
 
 ドア | door
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ドア"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ドア"></source></audio>
 
 
 アンド | and
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アンド"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アンド"></source></audio>
 
 
 アイドル | idol
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アイドル"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アイドル"></source></audio>
 
 
 ウィンドウ | window
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ウィンドウ"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ウィンドウ"></source></audio>
 
 
 エンド | end
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=エンド"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=エンド"></source></audio>
 
 
 オールド | old
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=オールド"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=オールド"></source></audio>
 
 
 アド | ad
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アド"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アド"></source></audio>
 
 
 ドンドン | knock knock
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=ドンドン"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=ドンドン"></source></audio>
 
 
 アウトドア | outdoor
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Japanese&text=アウトドア"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Japanese&amp;text=アウトドア"></source></audio>
 
 
 Keep reading and writing these words again and again until you can recognize these first ten syllables immediately and read them as quickly as you can read English. Keep practicing, and soon you will be ready to [learn Japanese by reading real sentences from the news]({{ site.wordbrewery }}).
@@ -284,3 +284,5 @@ Keep reading and writing these words again and again until you can recognize the
 アイドル | ウォール | オンエア
 
 *This post is part of {{ site.wordbrewery }}'s Reading Japanese series, which is described [here]({{ site.baseurl }}{% post_url 2016-07-31-introducing-reading-japanese %}). [Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery Blog posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. Your support helps us grow and build more useful features and content for language learners around the world.*
+
+{% include post_footer.html %}

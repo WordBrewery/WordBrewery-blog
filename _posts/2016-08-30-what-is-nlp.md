@@ -17,7 +17,7 @@ image: mountains_mist.jpg
 ## Sentence segmentation to divide news articles into sentences
 
 
-{{ site.wordbrewery }}'s sentence collector uses *sentence segmentation* to identify where sentences begin and end&mdash;a computing task that is more difficult and error-prone than one might think. Here are screenshots of (now-fixed) sentence segmentation bugs that have cluttered our database along the way:
+{{ site.wordbrewery }}'s sentence collector uses *sentence segmentation* to identify where sentences begin and end&amp;mdash;a computing task that is more difficult and error-prone than one might think. Here are screenshots of (now-fixed) sentence segmentation bugs that have cluttered our database along the way:
 
 ![WordBrewery sentence segmentation bug: please report bad sentences when you find them by clicking the thumbs-down button]({{ site.baseurl }}/img/sentence_segmentation_bug.jpg)
 *Here, the sentence was split at a semicolon.*
@@ -69,3 +69,5 @@ Finally, the NLP technology that is at the core of WordBrewery's sentence finder
 {{ site.wordbrewery }} is constantly brainstorming new ways to help people learn to read their target language and master the high-frequency vocabulary they need for real fluency.
 
 *We would love to [hear your thoughts](https://docs.google.com/forms/d/1VLYcHdI5-FLlr5hMRJ1DzhLKDUzfkPvyI8Bx3bvvk3w/viewform) about what features you would like to see {{ site.wordbrewery }} add in the future. And if you haven't done so yet, please take a moment to [subscribe to this blog](http://feeds.feedburner.com/LanguageUntapped) to help us grow and get the traction we need to build the features you want.*
+
+{% include post_footer.html %}

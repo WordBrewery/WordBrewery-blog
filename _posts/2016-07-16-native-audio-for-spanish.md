@@ -16,6 +16,6 @@ Most language-learning apps and websites use text-to-speech technology to genera
 
 Soon, {{ site.wordbrewery }} plans to add native-speaker audio for other languages. You can help make that possible by [registering for the website](https://wordbrewery.com/user/register) (it's free), [joining our email list](http://goo.gl/pTPRvb), [subscribing to our RSS feed](http://goo.gl/fb/wz5pgM), and sharing this post on social media. Thank you!
 
-## Be sure to also check out {{ site.wordbrewery }}'s [Spanish Fundamentals]({{ site.baseurl }}{% post_url 2016-06-17-spanish-fundamentals-introduction %}) series and [Spanish Core Anki Deck]({{ site.url }}{{ site.baseurl }}{% post_url 2016-09-07-wordbrewery-spanish-core-anki-deck %}). We have scoured thousands of recent Spanish-language news articles and chosen 500 sentences from them to teach you the essentials of Spanish grammar and vocabulary.
+*Be sure to also check out {{ site.wordbrewery }}'s [Spanish Fundamentals]({{ site.baseurl }}{% post_url 2016-06-17-spanish-fundamentals-introduction %}) series and [Spanish Core Anki Deck]({{ site.url }}{{ site.baseurl }}{% post_url 2016-09-07-wordbrewery-spanish-core-anki-deck %}). We have scoured thousands of recent Spanish-language news articles and chosen 500 sentences from them to teach you the essentials of Spanish grammar and vocabulary.*
 
 {% include spanish_fundamentals_index.html %}

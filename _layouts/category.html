@@ -1,38 +1,64 @@
 ---
 layout: default
-title: Learning {{ page.category }}
+permalink: /categories/
+title: Categories
 ---
 
-{% unless page.content == '' %}
-<p>{{ page.content }}</p>
-{% endunless %}
+<div id="archives">
+    {% for category in site.categories %}
+    <div class="archive-group">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <div id="#{{ category_name | slugize }}"></div>
+        <p></p>
 
-<div class="post_index">
-
-  {% for post in site.posts %}
-  {% if post.category==page.category%}
-  {% include post-listing.html %}
-  {% endif %}
-  {% endfor %}
-
+        <h3 class="category-head">{{ category_name }}</h3>
+        <a name="{{ category_name | slugize }}"></a>
+        {% for post in site.categories[category_name] %}
+        <article class="archive-item">
+            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+        </article>
+        {% endfor %}
+    </div>
+    {% endfor %}
 </div>
 
-Site:
-  {{ site | jsonify }}
 
-  Page:
+<!-- --- -->
+<!-- layout: default -->
+<!-- title: {{ page.category }} -->
+<!-- --- -->
 
-  {{ page | jsonify }}
+<!-- {% unless page.content == '' %} -->
+<!-- <p>{{ page.content }}</p> -->
+<!-- {% endunless %} -->
 
-  Category:
+<!-- <div class="post_index"> -->
 
-  {{ category | jsonify }}
+<!--     <ul class="post-list" itemscope="" itemtype="http://schema.org/Blog"> -->
+<!--       {% for post in site.posts %} -->
+<!--       {% if post.category=="Japanese" %} -->
+<!--       {% include post-listing.html %} -->
+<!--       {% endif %} -->
+<!--       {% endfor %} -->
+<!--     </ul> -->
 
-  Post:
+<!-- </div> -->
 
-  {{ post | jsonify }}
+<!-- Site: -->
+<!--   {{ site | jsonify }} -->
 
-  Default
+<!--   Page: -->
 
-  {{ default | jsonify }}
+<!--   {{ page | jsonify }} -->
 
+<!--   Category: -->
+
+<!--   {{ category | jsonify }} -->
+
+<!--   Post: -->
+
+<!--   {{ post | jsonify }} -->
+
+<!--   Default -->
+
+<!--   {{ default | jsonify }} -->

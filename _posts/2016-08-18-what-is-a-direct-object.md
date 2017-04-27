@@ -41,3 +41,5 @@ This sentence is obviously quite different from **"The dog bites the man."** How
 - StudySpanish, *[Direct Object Pronouns](http://www.studyspanish.com/lessons/dopro1.htm)*
 
 *All the example sentences on this blog are real, recent sentences from the news selected from {{ site.wordbrewery }}'s database. [Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery posts by email or RSS.*
+
+{% include post_footer.html %}

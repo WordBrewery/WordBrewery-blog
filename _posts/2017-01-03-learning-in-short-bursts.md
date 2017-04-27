@@ -20,3 +20,5 @@ The idea of learning in short bursts is one of {{ site.wordbrewery }}'s core pri
 Another core principle of {{ site.wordbrewery }} is our focus on individual sentences as the unit of study (hence our tagline, "Fluency one sentence at a time"). Try speaking the sentences you save aloud, writing them down, or even diagramming them by analyzing their grammatical components. By studying a sentence repeatedly, you can easily memorize the sentence; if you memorize a sentence, you not only learn each vocabulary word in the sentence, but also internalize information about the grammatical structure of the sentence and the correct usage of each word.
 
 *[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery blog posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. Your support helps us grow and build more useful features and content for language learners around the world.*
+
+{% include post_footer.html %}

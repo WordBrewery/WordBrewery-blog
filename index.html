@@ -3,11 +3,7 @@ layout: default
 ---
 
 <div class="carousel">
-  {% for post in site.posts %}
-    {% if post.featured %}
-      {% include carousel-slide.html %}
-    {% endif %}
-  {% endfor %}
+    {% for post in site.posts %} {% if post.featured %} {% include carousel-slide.html %} {% endif %} {% endfor %}
 </div>
 
 {% include post-index.html %}

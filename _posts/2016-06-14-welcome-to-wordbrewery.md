@@ -26,5 +26,6 @@ We built {{site.wordbrewery}} because we wanted a way to learn, practice, and re
 
 But what do you want? We want {{site.wordbrewery}} to be useful for you, so please let us know what you like, what you think could be better, and what would make you come back for more. Consider [taking a short beta tester survey](https://docs.google.com/forms/d/1VLYcHdI5-FLlr5hMRJ1DzhLKDUzfkPvyI8Bx3bvvk3w/viewform) to let us know. If you want to help us build a mobile app or hire more native-speaker voice actors to record sentences, please consider [making a small donation](https://squareup.com/store/wordbrewery2); everything helps!
 
-*[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery Blog posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. And if you haven't tried reading the news in another  language on {{site.wordbrewery}} yet,
-please give it a try. Your support helps us grow and build more useful features and content for language learners around the world.*
+*[Click here](http://feeds.feedburner.com/LanguageUntapped) to receive new WordBrewery Blog posts by email or RSS, and [click here](http://goo.gl/pTPRvb) to join our email community. And if you haven't tried reading the news in another  language on {{site.wordbrewery}} yet, please give it a try. Your support helps us grow and build more useful features and content for language learners around the world.*
+
+{% include post_footer.html %}

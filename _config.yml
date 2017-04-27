@@ -7,7 +7,7 @@ email: admin@wordbrewery.com
 
 avatar: "{{ site.url }}/resources/images/fb-graph-logo.png"
 baseurl: "/blog" # the subpath of your site
-cacheparam: "?101919" # Change this if I want to recache Twitter images
+cacheparam: "?121919" # Change this if I want to recache Twitter images
 description: "WordBrewery's home for aspiring polyglots. Study tips, book and app reviews, grammar and vocabulary lessons, interviews, and other language-learning resources."
 encoding: "utf-8"
 feed: <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml" target="_blank">
@@ -29,14 +29,14 @@ url: "https://wordbrewery.com" # the base hostname & protocol for your site
 
 feedburner: "(http://feeds.feedburner.com/LanguageUntapped){:target='_blank'}{:title='Get new WordBrewery blog posts by email or RSS'}"
 wordbrewery: "[WordBrewery](https://wordbrewery.com){:target='_blank'}{:title='WordBrewery'}"
-subscribe: "[Subscribe to WordBrewery](https://wordbrewery.com/#/subscriptions){:target='_blank'}{:title='Subscribe to WordBrewery'}"
-register: "[Try WordBrewery](https://wordbrewery.com/#/account/register){:target='_blank'}{:title='Subscribe to WordBrewery'}"
-registration: "(https://wordbrewery.com/#/account/register){:target='_blank'}{:title='Sign up for WordBrewery'}"
+subscribe: "[Subscribe to WordBrewery](https://wordbrewery.com/subscriptions){:target='_blank'}{:title='Subscribe to WordBrewery'}"
+register: "[Try WordBrewery](https://wordbrewery.com/account/register){:target='_blank'}{:title='Subscribe to WordBrewery'}"
+registration: "(https://wordbrewery.com/account/register){:target='_blank'}{:title='Sign up for WordBrewery'}"
 donate: "[Donate](https://squareup.com/store/wordbrewery2){:target='_blank'}{:title='Support WordBrewery'}"
 donation: "(https://squareup.com/store/wordbrewery2){:target='_blank'}{:title='Support WordBrewery'}"
-subscriptions: "(https://wordbrewery.com/#/subscriptions){:target='_blank'}{:title='WordBrewery Subscriptions'}"
+subscriptions: "(https://wordbrewery.com/subscriptions){:target='_blank'}{:title='WordBrewery Subscriptions'}"
 emailList: "(http://goo.gl/pTPRvb){:target='_blank'}{:title='Get email updates from WordBrewery'}"
-about: "[About WordBrewery](https://wordbrewery.com/#/about){:target='_blank'}{:title='About WordBrewery'}"
+about: "[About WordBrewery](https://wordbrewery.com/about){:target='_blank'}{:title='About WordBrewery'}"
 languages-offered: "nineteen"
 survey: "(https://docs.google.com/forms/d/1VLYcHdI5-FLlr5hMRJ1DzhLKDUzfkPvyI8Bx3bvvk3w/viewform){:target='_blank'}{:title='WordBrewery beta tester survey'}"
 languages:
@@ -60,6 +60,8 @@ languages:
 - Swedish
 - Ukrainian
 
+# SEO
+
 name: WordBrewery
 author: WordBrewery
 email: "admin@wordbrewery.com"
@@ -68,10 +70,40 @@ twitter_username: "WordBrewery"
 tumblr_username: "WordBrewery"
 disqus_username: "WordBrewery"
 fb_admins: "rmccarl"
-fb_admins: "Ashu212"
 fb_admins: "konst123"
 fb_appid: "107695666327886"
 code: "wb9467" # authorization code for tts
+social:
+  name: WordBrewery
+  links:
+    - https://wordbrewery.com
+    - https://plus.google.com/+WordBreweryLanguages
+    - https://twitter.com/wordbrewery
+    - https://wordbrewery.tumblr.com
+    - https://youtube.com/wordbrewerylanguages
+    - https://www.facebook.com/WordBrewery/
+    - https://github.com/WordBrewery/
+    - https://www.pinterest.com/wordbrewery/
+    - https://www.linkedin.com/company/wordbrewery
+    - http://www.stumbleupon.com/stumbler/wordbrewery
+    - https://instagram.com/wordbrewery
+    - http://wordbrewery.newsblur.com/
+    - http://digg.com/u/wordbrewery
+    - https://pinboard.in/u:WordBrewery
+    - https://squareup.com/store/wordbrewery2
+    - http://stackoverflow.com/users/5083726/wordbrewery
+
+  name: Ryan McCarl
+  links:
+    - https://ryanmccarl.com
+    - https://wideawakeminds.com
+    - https://twitter.com/RyanMcCarl
+    - https://www.quora.com/profile/Ryan-McCarl
+    - https://plus.google.com/+ryanmccarl
+    - https://www.facebook.com/rmccarl
+    - https://www.linkedin.com/in/ryanmccarl
+    - https://github.com/RyanMcCarl
+    - http://ryanmccarl.blogspot.com
 
 # Jekyll settings
 
@@ -90,20 +122,73 @@ collections:
   category:
     output: true
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: category
+#    values:
+#      layout: "category"
 
 # Kramdown settings
 
 kramdown:
-  gfm_quirks: [paragraph_end]
-  hard_wrap: true
+  #gfm_quirks: [paragraph_end]
+  #hard_wrap: true
+  entity_output: :as_input
+  html_to_native: true
 
+# Jekyll assets
+
+assets:
+  compress:
+    css:
+      development: false
+      production: true
+    js:
+      development: false
+      production: true
+
+  #
+
+  autowrite: true
+  cdn: https://cdn.example.com
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  #prefix: "/assets"
+  digest: true
+
+  #
+
+  assets:
+    - "*.png"
+    - "bundle.css"
+
+  #
+
+  sources:
+    # - _assets/css
+    # - _assets/images
+    # - _assets/javascripts
+    # - _assets/stylesheets
+    # - _assets/fonts
+    # - _assets/img
+    # - _assets/js
+    - /css
+    - /images
+    - /javascripts
+    - /stylesheets
+    - /fonts
+    - /img
+    - /js
+
+  #
+
+  features:
+    liquid: true
+    integrity: true
+    automatic_img_size: true
+    automatic_img_alt : true
 # YAML defaults
 
 defaults:
@@ -118,3 +203,4 @@ defaults:
       featured: true
     sass:
       sass_dir: _sass
+

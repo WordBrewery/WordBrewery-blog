@@ -11,11 +11,11 @@ image: Sotres.jpg
 
 ## 23. ¡Gracias por ser y estar!
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=¡Gracias por ser y estar!"></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=¡Gracias por ser y estar!"></source></audio>
 
 **¡Gracias!** | Thank you!
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Gracias"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Gracias"></source></audio>
 
 - This is an idiom—a set phrase—that means approximately the same thing as "Thank you for everything." (Literally, it means something like "Thank you for being and being!")
 
@@ -24,49 +24,49 @@ image: Sotres.jpg
 
 - **somos** | we are (note: like *soy* ("am") and *es* ("is"),  this is a form of the word *ser*, "to be."
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=somos"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=somos"></source></audio>
 
 - **más** | more
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=más"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=más"></source></audio>
 
 ## 25. Son las dos cosas.
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Son las dos cosas."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Son las dos cosas."></source></audio>
 
 **dos** | two
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=dos"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=dos"></source></audio>
 
 **cosa** | thing
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=cosa"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=cosa"></source></audio>
 
 
 **los dos** | both
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=los dos"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=los dos"></source></audio>
 
 ## 26. Soy como una abuela.
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Soy como una abuela."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Soy como una abuela."></source></audio>
 
 **abuela** | grandmother
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=abuela"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=abuela"></source></audio>
 
 **como** | like
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=como"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=como"></source></audio>
 
 
 ## 27. Eres uno más en el grupo.
 
-<audio controls><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=Eres uno más en el grupo."></source></audio>
+<audio controls><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=Eres uno más en el grupo."></source></audio>
 
 **eres** | You are (familiar form; addressing a single person that the speaker knows well).
 
-<audio controls align="center"><source src="https://wb-backend.azurewebsites.net/api/tts/speak?code={{ site.code }}&languageId=Spanish&text=eres"></source></audio>
+<audio controls align="center"><source src="https://api.wordbrewery.com/api/tts/speak?code={{ site.code }}&amp;languageId=Spanish&amp;text=eres"></source></audio>
 
 
 # Grammar notes

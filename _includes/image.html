@@ -1,3 +1,6 @@
-<figure>{% if include.alt %}![{{ include.alt }}]{% endif %}({{ site.baseurl }}/img/{{ include.name }}){% if include.caption %}*{{ include.caption }}*{% endif %}</figure>
+<!-- include image.html -->
+<figure markdown="1">
 
-<!--Usage: \{\% include image name="linkedin-before.png" alt="alt text" caption="Sharing my blog on LinkedIn" \%\}-->
+    ![{% if include.alt %}{{ include.alt }}{% endif %}]({{ site.baseurl }}/img/{{ include.name }}) {% if include.caption %}*{{ include.caption }}*{% endif %}
+
+</figure>

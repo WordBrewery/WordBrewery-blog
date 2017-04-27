@@ -1,0 +1,60 @@
+<!-- include post_schema.html -->
+
+<script type="application/ld+json">
+
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://wordbrewery.com/blog/{{ post.link }}"
+        }: {
+            "@context": "http://schema.org",
+            "@type": "BlogPosting",
+            "headline": "{{ include.headline }}",
+            "genre": "{{ include.category }}",
+            "url": "https://wordbrewery.com/blog/{{ include.link }}",
+            "datePublished": "{{ include.date | date: '%Y-%m-%d' }}",
+            "author": {
+                "@type": "Organization",
+                "name": "WordBrewery",
+                "sameAs": [
+                    "https://wordbrewery.com",
+                    "https://plus.google.com/+WordBreweryLanguages",
+                    "https://twitter.com/wordbrewery",
+                    "https://wordbrewery.tumblr.com",
+                    "https://youtube.com/wordbrewerylanguages",
+                    "https://www.facebook.com/WordBrewery/",
+                    "https://github.com/WordBrewery/",
+                    "https://www.pinterest.com/wordbrewery/",
+                    "https://www.linkedin.com/company/wordbrewery",
+                    "http://www.stumbleupon.com/stumbler/wordbrewery",
+                    "https://instagram.com/wordbrewery",
+                    "http://wordbrewery.newsblur.com/",
+                    "http://digg.com/u/wordbrewery",
+                    "https://pinboard.in/u:WordBrewery",
+                    "https://squareup.com/store/wordbrewery2",
+                    "http://stackoverflow.com/users/5083726/wordbrewery"
+        ],
+                    "logo": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.0-9/13001275_1699341317002922_5650851905284710896_n.jpg?oh=65414f2225b49dd93b89cd202d242df6&oe=59701395",
+                    "url": "https://wordbrewery.com"
+                },
+
+            },
+            "publisher": {
+                "@type": "Person",
+                "name": "Ryan McCarl",
+                "sameAs": [
+                    "https://ryanmccarl.com",
+                    "https://wideawakeminds.com",
+                    "https://twitter.com/RyanMcCarl",
+                    "https://www.quora.com/profile/Ryan-McCarl",
+                    "https://plus.google.com/+ryanmccarl",
+                    "https://www.facebook.com/rmccarl",
+                    "https://www.linkedin.com/in/ryanmccarl",
+                    "https://github.com/RyanMcCarl",
+                    "http://ryanmccarl.blogspot.com"
+                ],
+            },
+        }
+
+    </script>
